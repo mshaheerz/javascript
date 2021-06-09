@@ -1,0 +1,53 @@
+body{
+				background: grey;
+				padding: 20px;
+}
+#textview{
+				background: white;
+				color: black;
+				width: 150px;
+				height: 100px;
+				margin-left:120px;
+				border-radius: 10px;
+				
+				
+				
+}
+.example{
+				padding: 40px;
+}
+.green {
+margin: 20px;
+background: green;
+width: 50px;
+padding: 70px;
+margin-left:20px;
+border-radius: 10px;
+				
+}
+
+.red{
+	background: red;			
+		margin-left:60px;
+width: 50px;
+padding:70px;
+border-radius: 10px;		
+}
+.yellow{
+				background: yellow;
+				margin: 20px;
+				margin-left:20px;
+width: 50px;
+padding: 70px;
+border-radius: 10px;
+}
+.blue{
+background: blue;
+			margin-left:60px;
+width: 50px;
+padding:70px;
+border-radius: 10px;					
+}
+.len{
+				margin: 1
+}

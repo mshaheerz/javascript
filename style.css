@@ -1,0 +1,18 @@
+body{
+			 padding: 10px;
+			 color:white;
+			 background: grey;
+}
+.cent{
+			
+				
+				margin: auto;
+      width: 50%;
+      border: 3px solid green;
+      padding: 5px;
+	  		margin-left: 50px
+}
+button{
+				width: 100px;
+       margin: 50px;
+   }

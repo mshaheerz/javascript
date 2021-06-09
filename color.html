@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+				<link rel="stylesheet" href="styles.css" />
+				<title>Page title</title>
+</head>
+<body>
+				
+				<div id="textview"><h4  id="code" class="example" >example</h4></div>
+				
+				<div class=len>
+								<table>
+								<tr>
+												<td>
+				<button onclick="display('green')" class="green">
+							<script>
+											function display(){
+											
+														     document.getElementById("code").innerHTML="green"
+														     
+											}
+							</script>	
+				
+				</td>
+				<td>
+			   <button class="red" onclick="display('red')">
+							<script>
+											function displayred(){
+											
+						   document.getElementById("code").innerHTML="red"						
+											}
+											
+							</script>	
+												<script>
+											function display(col){
+											
+						   document.getElementById("textview").style.background=col					
+											}
+											
+							</script>	
+				
+				</td>
+				</tr>
+				<tr>
+								<td>
+				<button class="yellow" onclick="display('yellow')">
+								<script>
+												function displayyellow(){
+																document.getElementById("code").innerHTML="yellow"
+												}
+								</script>
+					</td>
+					<td>			
+								
+				
+				<button class="blue" onclick="denz()">
+								<script>
+												function denz(){
+																document.getElementById("code").innerHTML="blue"
+												}
+								</script>
+								
+			</tr>					
+				
+				</div>
+				
+				
+</body>
